@@ -122,6 +122,9 @@
 			top: vShift,
 			left: hShift
 		});
+		setTimeout(function(){
+			$(window).trigger('fadeIn');
+		}, 0);
 	};
 
 	var $window = $(window);
